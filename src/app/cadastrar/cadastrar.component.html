@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid bg-dark">
 
     <div class="row">
 
@@ -9,39 +9,39 @@
             <div class="row d-flex justify-content-center"></div>
             <div class="col-md-10">
 
-                <h1 class="text-center">Cadastro</h1>
+                <h2 class="text-center text-light">Cadastre-se</h2>
 
 
                 <div class="form-group">
                     <label for="nome">Nome</label>
-                    <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome completo">
+                    <input class="form-control" type="text" name="nome" id="nome" placeholder="Nome completo" style="border-radius: 25px;">
                 </div>
-
+                
                 <div class="form-group">
                     <label for="usuario">Usuário</label>
-                    <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Digite um usuário">
+                    <input class="form-control" type="text" name="usuario" id="usuario" placeholder="Digite um usuário" style="border-radius: 25px;">
                 </div>
-
+                 
                 <div class="form-group">
                     <label for="foto">Foto</label>
                     <input class="form-control" type="text" name="foto" id="foto"
-                        placeholder="Digite o link da sua foto">
+                        placeholder="Digite o link da sua foto" style="border-radius: 25px;">
                 </div>
-
+                
                 <div class="form-group">
                     <label for="senha">Senha</label>
-                    <input class="form-control" type="password" name="senha" id="senha" placeholder="Digite a senha">
+                    <input class="form-control" type="password" name="senha" id="senha" placeholder="Digite a senha" style="border-radius: 25px;">
                 </div>
-
+                  
                 <div class="form-group">
                     <label for="confirmSenha">Confirmar Senha</label>
                     <input class="form-control" type="password" name="confirmSenha" id="confirmSenha"
-                        placeholder="Confirme sua senha">
+                        placeholder="Confirme sua senha" style="border-radius: 25px;">
                 </div>
-
+                  
                 <div class="form-group">
                     <label for="tipo">Tipo de Usuário</label>
-                    <select class="form-control" name="tipo" id="tipo">
+                    <select class="form-control" name="tipo" id="tipo" style="border-radius: 25px;">
                         <option>Selecione o tipo de usuário:</option>
                         <option value="padrão">Padrão</option>
                         <option value="adm">Administrador</option>
@@ -50,8 +50,9 @@
                 <br>
 
                 <div class="d-flex justify-content-center">
-                    <button type="submit" class="btn btn-danger mx-4">Cancelar</button>
                     <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    <button type="submit" class="btn btn-danger mx-4" routerLink='/entrar'>Cancelar</button>
+                    
 
                 </div>
                 
